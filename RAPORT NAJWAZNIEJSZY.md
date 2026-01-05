@@ -68,6 +68,16 @@ Poniżej przedstawiono schemat logiczny bazy danych (diagram) oraz opis poszczeg
 
 ### Opisy poszczególnych tabel:
 
+#### Tabela: Calendar
+
+```sql
+CREATE TABLE Calendar (
+    date date PRIMARY KEY,
+    name varchar(100) NOT NULL
+);
+```
+* **Opis:** Tabela zawierająca liste dni wolnych.
+
 #### Tabela: BillOfMaterials
 
 ```sql
